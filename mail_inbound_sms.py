@@ -1,6 +1,6 @@
 #! /usr/bin/python
 
-from flask import Flask, render_template, request, make_response, url_for
+from flask import Flask, request
 import plivo
 import smtplib
 
