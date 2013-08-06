@@ -34,7 +34,7 @@ def mail_inbound_sms():
     body = "message\n from: "+str(From)+"\n To: "+str(to)+"\n Text: "+text
     sendemail(from_addr    = '<from email address>',
         to_addr_list = ['<to email address>'],
-        cc_addr_list = ['email address in cc'],
+        cc_addr_list = ['<email address in cc>'],
         subject      = "SMS from "+str(From),
         message      = body,
         login        = '<gmail user name>',
