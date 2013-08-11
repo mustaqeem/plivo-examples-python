@@ -2,7 +2,7 @@ from flask import Flask, url_for, Response, request
 
 app = Flask(__name__)
 
-import plivo
+import plivoxml as plivo
 import random
 import os
 
