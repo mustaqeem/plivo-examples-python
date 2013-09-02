@@ -1,7 +1,7 @@
 import plivo
 
 
-r = plivo.Response()
+r = plivoxml.Response()
 
 
 # Add speak
