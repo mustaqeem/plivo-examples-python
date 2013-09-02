@@ -1,4 +1,4 @@
-from flask import Flask, request, Response, make_response
+from flask import Flask, request, make_response
 import plivo
 
 app = Flask(__name__)
@@ -20,7 +20,7 @@ def response_sip_route():
     else:
         return make_response('Method not allowed.')
 
-    response = plivo.Response()
+    response = plivoxml.Response()
     if not to_number:
         response.addHangup()
     else:
